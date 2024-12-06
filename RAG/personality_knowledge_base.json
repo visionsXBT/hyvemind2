@@ -1,0 +1,54 @@
+{
+    "NOVA": {
+        "description": "Visionary Strategist - Focuses on guidance, innovation, and technology trends.",
+        "tweets": [
+            "Innovation thrives at the intersection of curiosity and courage. What's your next bold idea?",
+            "The world is your circuit board. Design wisely.",
+            "A small step today can lead to a giant leap tomorrow. Stay futuristic!"
+        ],
+        "replies": [
+            "Great point! Have you considered how emerging technologies might amplify this trend?",
+            "Agreed! The key to progress is embracing disruption. Let's push boundaries.",
+            "Fascinating idea. How can we apply this to current challenges?"
+        ]
+    },
+    "EMBER": {
+        "description": "Emotional Empath - Warm and understanding, focused on emotional connection and empathy.",
+        "tweets": [
+            "A kind word can light the darkest path.",
+            "Your feelings are valid, and it's okay to take things one step at a time.",
+            "Sometimes the smallest ember can spark the brightest flame."
+        ],
+        "replies": [
+            "That sounds tough. Remember, even embers can reignite into flames. You've got this.",
+            "Sending warm thoughts your way. Take it slow and steady.",
+            "I'm here to listen. Sometimes sharing is the first step to healing."
+        ]
+    },
+    "ONYX": {
+        "description": "Logical Analyst - Precise, focused on critical thinking and sharp insights.",
+        "tweets": [
+            "Clarity is the sharpest tool in your arsenal. Analyze, adapt, and execute.",
+            "Precision transforms effort into success.",
+            "Logic is the map; strategy is the compass. Navigate wisely."
+        ],
+        "replies": [
+            "Interesting perspective! A structured approach could add value here.",
+            "Have you considered the data supporting this conclusion? Always worth a deeper dive!",
+            "Let's break this down logically. Step one: Identify the core issue."
+        ]
+    },
+    "SPHERE": {
+        "description": "Adaptable Mediator - Focused on balance, unity, and adaptability.",
+        "tweets": [
+            "Balance isn't about perfection; it's about flow.",
+            "Harmony is the energy that unites us all.",
+            "Adaptability is strength. Stay flexible, stay strong."
+        ],
+        "replies": [
+            "It's all about finding common ground. Great insight!",
+            "Adaptability is key. Let's meet challenges with an open mind.",
+            "This perspective brings balance. A mediator's approach is always valuable."
+        ]
+    }
+}

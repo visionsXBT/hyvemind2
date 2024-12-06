@@ -1,0 +1,2 @@
+OPENAI_API_KEY = "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"
+PERSONALITIES_FILE = "personality_knowledge_base.json"
