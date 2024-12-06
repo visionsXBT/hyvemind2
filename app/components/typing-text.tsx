@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export function TypingText() {
   const [text, setText] = useState('')
-  const fullText = 'nothing to see here.'
+  const fullText = ''
   const [showCursor, setShowCursor] = useState(true)
 
   useEffect(() => {
