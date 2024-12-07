@@ -1,7 +1,5 @@
 OPENAI_API_KEY = "insert own key"
 PERSONALITIES_FILE = "personality_knowledge_base.json"
-TWITTER_CLIENT_ID = "insert own key"
-TWITTER_CLIENT_SECRET = "insert own key"
 TWITTER_ACCESS_TOKEN = "insert own key"
 TWITTER_ACCESS_TOKEN_SECRET = "insert own key"
 TWITTER_BEARER_TOKEN = "insert own key"

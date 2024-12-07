@@ -72,15 +72,12 @@ def construct_few_shot_prompt(personality_data, personality_name):
     return messages
 
 def generate_and_post_tweet():
-    """Generate a tweet and post it to Twitter."""
+    """generate a tweet and post it to X."""
     try:
-        # Load personalities
+ 
         personality_data = load_personalities(PERSONALITIES_FILE)
-        
-        # Randomly select a personality
         personality_name = random.choice(list(personality_data.keys()))
-        
-        # Generate tweet
+
         messages = construct_few_shot_prompt(personality_data, personality_name)
         
         try:
@@ -117,10 +114,11 @@ def generate_and_post_tweet():
 
 
 def main():
-    # Schedule the tweet generation and posting every 5 minutes
+
     generate_and_post_tweet()
+    #Change every() to determine variation
     schedule.every(1).minutes.do(generate_and_post_tweet)
-    
+
     # Keep the script running
     while True:
         schedule.run_pending()
