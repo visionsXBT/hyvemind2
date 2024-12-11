@@ -513,7 +513,7 @@ export default function Home() {
       <div style={{
         position: 'absolute',
         top: '310px',
-        right: '1105px',
+        right: '1095px',
         zIndex: 2,
         color: '#09f156',
         fontFamily: 'AdvancedPixel7',
@@ -581,7 +581,7 @@ export default function Home() {
       <div style={{
         position: 'absolute',
         top: '340px',
-        right: '1105px',
+        right: '1095px',
         zIndex: 2,
         color: '#09f156',
         fontFamily: 'AdvancedPixel7',
@@ -649,7 +649,7 @@ export default function Home() {
       <div style={{
         position: 'absolute',
         top: '370px',
-        right: '1105px',
+        right: '1095px',
         zIndex: 2,
         color: '#09f156',
         fontFamily: 'AdvancedPixel7',
@@ -717,7 +717,7 @@ export default function Home() {
       <div style={{
         position: 'absolute',
         top: '400px',
-        right: '1105px',
+        right: '1095px',
         zIndex: 2,
         color: '#09f156',
         fontFamily: 'AdvancedPixel7',
