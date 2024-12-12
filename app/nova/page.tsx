@@ -335,6 +335,44 @@ export default function Home() {
       </Link>
 
       {/* HYVENET Logo */}
+            <div style={{
+              position: 'absolute',
+              top: '395px',
+              left: '100px',
+              zIndex: 2,
+            }}>
+              <Image
+                src="/arrow.png"
+                alt="folder-icon.png"
+                width={34.2}
+                height={27}
+                priority
+              />
+            </div>
+      
+            {/* DATE Text */}
+            <a
+              href="https://hyvenet-r.gitbook.io/hyvenet-r"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+              position: 'absolute',
+              top: '395px',
+              right: '1705px',
+              zIndex: 2,
+              color: '#09f156',
+              fontFamily: 'AdvancedPixel7',
+              fontSize: '25px',
+              textAlign: 'left',
+              lineHeight: '25px',
+              textDecoration: 'none',
+              display: 'inline-block',
+            }}
+              >
+              whitepaper
+            </a>
+
+      {/* HYVENET Logo */}
       <div style={{
         position: 'absolute',
         top: '369px',
