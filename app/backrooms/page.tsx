@@ -91,7 +91,7 @@ export default function Home() {
         textAlign: 'right',
         lineHeight: '6',
       }}>
-        Decemeber 12, 2024<br />
+        December 12, 2024<br />
       </div>
 
       {/* Main Content */}
