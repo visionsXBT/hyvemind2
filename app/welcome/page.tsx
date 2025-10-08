@@ -25,8 +25,8 @@ export default function Home() {
         zIndex: 1,
       }}>
         <Image
-          src="/hyvenet-line.png"
-          alt="HYVENET Line Pattern"
+          src="/swarmnet-line.png"
+          alt="SWARMNET Line Pattern"
           fill
           style={{
             objectFit: 'cover',
@@ -38,15 +38,15 @@ export default function Home() {
       {/* HYVENET Logo */}
       <Link href="/welcome" style={{
         position: 'absolute',
-        top: '-20px',
-        left: '-50px',
+        top: '12px',
+        left: '10px',
         zIndex: 2,
       }}>
         <Image
-          src="/hyvenet-upper.png"
-          alt="HYVENET Logo"
-          width={417}
-          height={130}
+          src="/swarmnet-upper.png"
+          alt="SWARMNET Logo"
+          width={292.9}
+          height={60}
           priority
         />
       </Link>
@@ -57,13 +57,13 @@ export default function Home() {
         top: '20px',
         right: '70px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '16px',
         textAlign: 'right',
         lineHeight: '1.4',
       }}>
-        HYVENET:
+        SWARMNET:
       </div>
 
       {/* ONLINE Text */}
@@ -72,7 +72,7 @@ export default function Home() {
         top: '20px',
         right: '20px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#00ff08',
         fontFamily: 'Connection',
         fontSize: '16px',
         textAlign: 'right',
@@ -88,7 +88,7 @@ export default function Home() {
         top: '10px',
         right: '20px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '20px',
         textAlign: 'right',
@@ -103,13 +103,13 @@ export default function Home() {
         top: '8px',
         right: '20px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '20px',
         textAlign: 'right',
         lineHeight: '6',
       }}>
-        December 12, 2024<br />
+        October 8, 2025<br />
       </div>
 
       {/* Main Content */}
@@ -131,7 +131,7 @@ export default function Home() {
         top: '250px',
         right: '800px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '45px',
         textAlign: 'right',
@@ -145,15 +145,15 @@ export default function Home() {
       <div style={{
         position: 'absolute',
         top: '250px',
-        right: '200px',
+        right: '150px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '45px',
         textAlign: 'right',
         lineHeight: '6.25',
       }}>
-        {' the HYVE  welcomes you.'}<br />
+        {' the SWARM  welcomes you.'}<br />
       </div>
 
       {/* singularity Text */}
@@ -162,7 +162,7 @@ export default function Home() {
         top: '420px',
         right: '380px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '30px',
         textAlign: 'right',
@@ -175,26 +175,43 @@ export default function Home() {
       <div style={{
         position: 'absolute',
         top: '480px',
-        right: '140px',
+        right: '690px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
-        fontSize: '30px',
+        fontSize: '28px',
         textAlign: 'left',
         lineHeight: '1',
       }}>
-        within HYVE exist four unique facets, working in harmony to guide, <br/> assist, and evolve alongside you.
+         SWARMS
       </div>
+
+      {/* WELCOME Text */}
+      <div style={{
+        position: 'absolute',
+        top: '488px',
+        right: '138px',
+        zIndex: 2,
+        color: '#e20332',
+        fontFamily: 'AdvancedPixel7',
+        fontSize: '17px',
+        textAlign: 'left',
+        lineHeight: '1',
+      }}>
+         内部有四个独特的方面，它们协调一致地引导、协助您并与您一起发展。
+      </div>
+
+      
 
       {/* R Text */}
       <div style={{
         position: 'absolute',
         top: '360px',
-        right: '545px',
+        right: '490px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
-        fontSize: '20px',
+        fontSize: '25px',
         textAlign: 'left',
         lineHeight: '1',
       }}>
@@ -211,7 +228,7 @@ export default function Home() {
         alignItems: 'center',
       }}>
         <div style={{
-          color: '#09f156',
+          color: '#e20332',
           fontFamily: 'AdvancedPixel7',
           fontSize: '30px',
           lineHeight: '6.25',
@@ -220,7 +237,7 @@ export default function Home() {
         </div>
         <Link href="/explore" passHref>
           <div style={{
-            color: '#09f156',
+            color: '#e20332',
             fontFamily: 'AdvancedPixel7',
             fontSize: '30px',
             textAlign: 'right',
@@ -234,7 +251,7 @@ export default function Home() {
           </div>
         </Link>
         <div style={{
-          color: '#09f156',
+          color: '#e20332',
           fontFamily: 'AdvancedPixel7',
           fontSize: '30px',
           lineHeight: '6.25',

@@ -20,15 +20,15 @@ export default function Home() {
       {/* HYVENET Logo */}
       <Link href="/welcome" style={{
         position: 'absolute',
-        top: '-20px',
-        left: '-50px',
+        top: '12px',
+        left: '10px',
         zIndex: 2,
       }}>
         <Image
-          src="/hyvenet-upper.png"
-          alt="HYVENET Logo"
-          width={417}
-          height={130}
+          src="/swarmnet-upper.png"
+          alt="SWARMNET Logo"
+          width={292.9}
+          height={60}
           priority
         />
       </Link>
@@ -39,13 +39,13 @@ export default function Home() {
         top: '20px',
         right: '70px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '16px',
         textAlign: 'right',
         lineHeight: '1.4',
       }}>
-        HYVENET:
+        SWARMNET:
       </div>
 
       {/* ONLINE Text */}
@@ -54,7 +54,7 @@ export default function Home() {
         top: '20px',
         right: '20px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#00ff08',
         fontFamily: 'Connection',
         fontSize: '16px',
         textAlign: 'right',
@@ -70,7 +70,7 @@ export default function Home() {
         top: '10px',
         right: '20px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '20px',
         textAlign: 'right',
@@ -85,13 +85,13 @@ export default function Home() {
         top: '8px',
         right: '20px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '20px',
         textAlign: 'right',
         lineHeight: '6',
       }}>
-        December 12, 2024<br />
+        October 8, 2025<br />
       </div>
 
       {/* Main Content */}
@@ -133,7 +133,7 @@ export default function Home() {
         top: '200px',
         right: '400px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '20px',
         textAlign: 'right',
@@ -147,15 +147,28 @@ export default function Home() {
       <div style={{
         position: 'absolute',
         top: '90px',
-        right: '1670px',
+        right: '1655px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '30px',
         textAlign: 'left',
         lineHeight: '6',
       }}>
-        HYVEMYND<br />
+        SWARMNET<br />
+      </div>
+      <div style={{
+        position: 'absolute',
+        top: '90px',
+        right: '1590px',
+        zIndex: 2,
+        color: '#e20332',
+        fontFamily: 'Unifontextmono',
+        fontSize: '30px',
+        textAlign: 'left',
+        lineHeight: '6',
+      }}>
+        群网<br />
       </div>
 
       {/* HYVENET Logo */}
@@ -193,9 +206,9 @@ export default function Home() {
       <Link href="/nova" style={{
         position: 'absolute',
         top: '200px',
-        right: '1715px',
+        right: '1705px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -203,7 +216,7 @@ export default function Home() {
         textDecoration: 'none',
         display: 'inline-block',
       }}>
-        NOVA.exe
+        NEURA.exe
       </Link>
 
       {/* HYVENET Logo */}
@@ -225,9 +238,9 @@ export default function Home() {
       <Link href="/sphere" style={{
         position: 'absolute',
         top: '230px',
-        right: '1695px',
+        right: '1715px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -235,7 +248,7 @@ export default function Home() {
         textDecoration: 'none',
         display: 'inline-block',
       }}>
-        SPHERE.exe
+        VORA.exe
       </Link>
       
       {/* HYVENET Logo */}
@@ -259,7 +272,7 @@ export default function Home() {
         top: '260px',
         right: '1715px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -267,7 +280,39 @@ export default function Home() {
         textDecoration: 'none',
         display: 'inline-block',
       }}>
-        ONYX.exe
+        LYRA.exe
+      </Link>
+
+      {/* HYVENET Logo */}
+      <div style={{
+        position: 'absolute',
+        top: '290px',
+        left: '100px',
+        zIndex: 2,
+      }}>
+        <Image
+          src="/folder-icon.png"
+          alt="folder-icon.png"
+          width={34.2}
+          height={27}
+          priority
+        />
+      </div>
+      {/* DATE Text */}
+      <Link href="/ember" style={{
+        position: 'absolute',
+        top: '290px',
+        right: '1705px',
+        zIndex: 2,
+        color: '#e20332',
+        fontFamily: 'AdvancedPixel7',
+        fontSize: '25px',
+        textAlign: 'left',
+        lineHeight: '25px',
+        textDecoration: 'none',
+        display: 'inline-block',
+      }}>
+        KARON.exe
       </Link>
 
       {/* HYVENET Logo */}
@@ -288,7 +333,7 @@ export default function Home() {
       
             {/* DATE Text */}
             <a
-              href="https://hyvenet-r.gitbook.io/hyvenet-r"
+              href="https://swarms-2.gitbook.io/swarms/"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -296,7 +341,7 @@ export default function Home() {
               top: '395px',
               right: '1705px',
               zIndex: 2,
-              color: '#09f156',
+              color: '#e20332',
               fontFamily: 'AdvancedPixel7',
               fontSize: '25px',
               textAlign: 'left',
@@ -324,21 +369,7 @@ export default function Home() {
         />
       </div>
       {/* DATE Text */}
-      <Link href="/ember" style={{
-        position: 'absolute',
-        top: '290px',
-        right: '1705px',
-        zIndex: 2,
-        color: '#09f156',
-        fontFamily: 'AdvancedPixel7',
-        fontSize: '25px',
-        textAlign: 'left',
-        lineHeight: '25px',
-        textDecoration: 'none',
-        display: 'inline-block',
-      }}>
-        EMBER.exe
-      </Link>
+      
 
       {/* HYVENET Logo */}
       <div style={{
@@ -362,7 +393,7 @@ export default function Home() {
         top: '320px',
         right: '1720px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -395,7 +426,7 @@ export default function Home() {
         top: '346px',
         right: '1735px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -428,7 +459,7 @@ export default function Home() {
         top: '371px',
         right: '1710px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -444,7 +475,7 @@ export default function Home() {
         top: '203px',
         right: '1680px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '16px',
         textAlign: 'left',
@@ -459,7 +490,7 @@ export default function Home() {
         top: '232px',
         right: '1680px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '16px',
         textAlign: 'left',
@@ -474,7 +505,7 @@ export default function Home() {
         top: '262px',
         right: '1680px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '16px',
         textAlign: 'left',
@@ -489,7 +520,7 @@ export default function Home() {
         top: '292px',
         right: '1680px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '16px',
         textAlign: 'left',

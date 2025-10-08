@@ -23,18 +23,27 @@ export function TypingText() {
     }, 500)
     return () => clearInterval(interval)
   }, [])
-
+  
   return (
     <div>
       <div style={{
         fontFamily: 'Connection, monospace',
         fontSize: '45px',
-        color: '#09f156',
+        color: '#e20332',
         textAlign: 'center',
         marginBottom: '10px',
         position: 'relative'
       }}>
-        HYVENET
+        SWARMS 
+        <span style={{
+          fontFamily: 'Unifontextmono, monospace',
+          fontSize: '35px',
+          position: 'absolute',
+          top: '-40px',
+          right: '58px'
+        }}>
+          蜂群
+        </span>
         <span style={{
           fontFamily: 'AdvancedPixel7, monospace',
           fontSize: '30px',
@@ -42,13 +51,17 @@ export function TypingText() {
           top: '-5px',
           right: '-15px'
         }}>
+    
           ®
         </span>
+      </div>
+      <div>
+        
       </div>
       <div style={{ 
         fontFamily: 'AdvancedPixel7, monospace', 
         fontSize: '32px', 
-        color: '#09f156',
+        color: '#e20332',
         textAlign: 'center'
       }}>
         {text}
@@ -58,7 +71,7 @@ export function TypingText() {
           style={{ 
             fontFamily: 'AdvancedPixel7, monospace',
             fontSize: '32px',
-            color: '#09f156',
+            color: '#e20332',
             textDecoration: 'none',
             cursor: 'pointer',
             padding: '4px 8px',

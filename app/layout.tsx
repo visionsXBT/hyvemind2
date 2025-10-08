@@ -2,8 +2,8 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'HYVE®',
-  description: 'welcome to the hyve.',
+  title: 'SWARMS®',
+  description: 'welcome to the SWARM.',
   icons: {
     icon: '/icon.png',
     shortcut: '/icon.png',

@@ -20,15 +20,15 @@ export default function Home() {
       {/* HYVENET Logo */}
       <Link href="/welcome" style={{
         position: 'absolute',
-        top: '-20px',
-        left: '-50px',
+        top: '12px',
+        left: '10px',
         zIndex: 2,
       }}>
         <Image
-          src="/hyvenet-upper.png"
-          alt="HYVENET Logo"
-          width={417}
-          height={130}
+          src="/swarmnet-upper.png"
+          alt="SWARMNET Logo"
+          width={292.9}
+          height={60}
           priority
         />
       </Link>
@@ -39,13 +39,13 @@ export default function Home() {
         top: '20px',
         right: '70px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '16px',
         textAlign: 'right',
         lineHeight: '1.4',
       }}>
-        HYVENET:
+        SWARMNET:
       </div>
 
       {/* ONLINE Text */}
@@ -54,7 +54,7 @@ export default function Home() {
         top: '20px',
         right: '20px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#00ff08',
         fontFamily: 'Connection',
         fontSize: '16px',
         textAlign: 'right',
@@ -70,7 +70,7 @@ export default function Home() {
         top: '10px',
         right: '20px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '20px',
         textAlign: 'right',
@@ -85,13 +85,13 @@ export default function Home() {
         top: '8px',
         right: '20px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '20px',
         textAlign: 'right',
         lineHeight: '6',
       }}>
-        December 12, 2024<br />
+        October 8, 2025<br />
       </div>
 
       {/* Main Content */}
@@ -108,21 +108,32 @@ export default function Home() {
       </div>
 
       {/* DATE Text */}
-      <Link href="/explore" style={{
+      <div style={{
         position: 'absolute',
         top: '90px',
-        right: '1670px',
+        right: '1655px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '30px',
         textAlign: 'left',
         lineHeight: '6',
-        textDecoration: 'none',
-        display: 'inline-block',
       }}>
-        HYVEMYND
-      </Link>
+        SWARMNET<br />
+      </div>
+      <div style={{
+        position: 'absolute',
+        top: '90px',
+        right: '1590px',
+        zIndex: 2,
+        color: '#e20332',
+        fontFamily: 'Unifontextmono',
+        fontSize: '30px',
+        textAlign: 'left',
+        lineHeight: '6',
+      }}>
+        群网<br />
+      </div>
 
       {/* HYVENET Logo */}
       <div style={{
@@ -159,9 +170,9 @@ export default function Home() {
       <Link href="/nova" style={{
         position: 'absolute',
         top: '200px',
-        right: '1715px',
+        right: '1705px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -169,23 +180,8 @@ export default function Home() {
         textDecoration: 'none',
         display: 'inline-block',
       }}>
-        NOVA.exe
+        NEURA.exe
       </Link>
-
-      <div style={{
-        position: 'absolute',
-        top: '203px',
-        right: '1680px',
-        zIndex: 2,
-        color: '#09f156',
-        fontFamily: 'Connection',
-        fontSize: '16px',
-        textAlign: 'left',
-        lineHeight: '1.4',
-        animation: 'blink 1s step-end infinite',
-      }}>
-        {'>'}
-      </div>
 
       {/* HYVENET Logo */}
       <div style={{
@@ -206,9 +202,9 @@ export default function Home() {
       <Link href="/sphere" style={{
         position: 'absolute',
         top: '230px',
-        right: '1695px',
+        right: '1715px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -216,23 +212,8 @@ export default function Home() {
         textDecoration: 'none',
         display: 'inline-block',
       }}>
-        SPHERE.exe
+        VORA.exe
       </Link>
-
-      <div style={{
-        position: 'absolute',
-        top: '232px',
-        right: '1680px',
-        zIndex: 2,
-        color: '#09f156',
-        fontFamily: 'Connection',
-        fontSize: '16px',
-        textAlign: 'left',
-        lineHeight: '1.4',
-        animation: 'blink 1s step-end infinite',
-      }}>
-        {'>'}
-      </div>
       
       {/* HYVENET Logo */}
       <div style={{
@@ -255,7 +236,7 @@ export default function Home() {
         top: '260px',
         right: '1715px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -263,23 +244,8 @@ export default function Home() {
         textDecoration: 'none',
         display: 'inline-block',
       }}>
-        ONYX.exe
+        LYRA.exe
       </Link>
-
-      <div style={{
-        position: 'absolute',
-        top: '262px',
-        right: '1680px',
-        zIndex: 2,
-        color: '#09f156',
-        fontFamily: 'Connection',
-        fontSize: '16px',
-        textAlign: 'left',
-        lineHeight: '1.4',
-        animation: 'blink 1s step-end infinite',
-      }}>
-        {'>'}
-      </div>
 
       {/* HYVENET Logo */}
       <div style={{
@@ -302,7 +268,7 @@ export default function Home() {
         top: '290px',
         right: '1705px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -310,23 +276,10 @@ export default function Home() {
         textDecoration: 'none',
         display: 'inline-block',
       }}>
-        EMBER.exe
+        KARON.exe
       </Link>
 
-      <div style={{
-        position: 'absolute',
-        top: '292px',
-        right: '1680px',
-        zIndex: 2,
-        color: '#09f156',
-        fontFamily: 'Connection',
-        fontSize: '16px',
-        textAlign: 'left',
-        lineHeight: '1.4',
-        animation: 'blink 1s step-end infinite',
-      }}>
-        {'>'}
-      </div>
+        
 
       {/* HYVENET Logo */}
       <div style={{
@@ -362,7 +315,7 @@ export default function Home() {
       
             {/* DATE Text */}
             <a
-              href="https://hyvenet-r.gitbook.io/hyvenet-r"
+              href="https://swarms-2.gitbook.io/swarms/"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -370,7 +323,7 @@ export default function Home() {
               top: '395px',
               right: '1705px',
               zIndex: 2,
-              color: '#09f156',
+              color: '#e20332',
               fontFamily: 'AdvancedPixel7',
               fontSize: '25px',
               textAlign: 'left',
@@ -388,7 +341,7 @@ export default function Home() {
         top: '320px',
         right: '1720px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -421,7 +374,7 @@ export default function Home() {
         top: '346px',
         right: '1735px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -454,7 +407,7 @@ export default function Home() {
         top: '371px',
         right: '1710px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -469,9 +422,9 @@ export default function Home() {
       <div style={{
         position: 'absolute',
         top: '120px',
-        right: '1300px',
+        right: '1245px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '80px',
         textAlign: 'center',
@@ -484,15 +437,15 @@ export default function Home() {
       <div style={{
         position: 'absolute',
         top: '260px',
-        right: '1055px',
+        right: '1020px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '28px',
         textAlign: 'left',
         lineHeight: '2',
       }}>
-        <b>input &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; usage &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; model &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tracking <br/></b>
+        <b>input &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; usage &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; model &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tracking <br/></b>
         
 
       </div>
@@ -500,9 +453,9 @@ export default function Home() {
       <div style={{
         position: 'absolute',
         top: '310px',
-        right: '1560px',
+        right: '1500px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '24px',
         textAlign: 'left',
@@ -519,7 +472,7 @@ export default function Home() {
         top: '310px',
         right: '1390px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '24px',
         textAlign: 'left',
@@ -536,7 +489,7 @@ export default function Home() {
         top: '310px',
         right: '1235px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '24px',
         textAlign: 'left',
@@ -553,7 +506,7 @@ export default function Home() {
         top: '310px',
         right: '1095px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '24px',
         textAlign: 'left',
@@ -568,9 +521,9 @@ export default function Home() {
       <div style={{
         position: 'absolute',
         top: '340px',
-        right: '1560px',
+        right: '1500px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '24px',
         textAlign: 'left',
@@ -587,7 +540,7 @@ export default function Home() {
         top: '340px',
         right: '1390px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '24px',
         textAlign: 'left',
@@ -604,7 +557,7 @@ export default function Home() {
         top: '340px',
         right: '1235px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '24px',
         textAlign: 'left',
@@ -621,7 +574,7 @@ export default function Home() {
         top: '340px',
         right: '1095px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '24px',
         textAlign: 'left',
@@ -636,9 +589,9 @@ export default function Home() {
       <div style={{
         position: 'absolute',
         top: '370px',
-        right: '1560px',
+        right: '1500px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '24px',
         textAlign: 'left',
@@ -655,7 +608,7 @@ export default function Home() {
         top: '370px',
         right: '1390px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '24px',
         textAlign: 'left',
@@ -672,7 +625,7 @@ export default function Home() {
         top: '370px',
         right: '1235px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '24px',
         textAlign: 'left',
@@ -689,7 +642,7 @@ export default function Home() {
         top: '370px',
         right: '1095px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '24px',
         textAlign: 'left',
@@ -704,9 +657,9 @@ export default function Home() {
       <div style={{
         position: 'absolute',
         top: '400px',
-        right: '1560px',
+        right: '1500px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '24px',
         textAlign: 'left',
@@ -723,7 +676,7 @@ export default function Home() {
         top: '400px',
         right: '1390px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '24px',
         textAlign: 'left',
@@ -740,7 +693,7 @@ export default function Home() {
         top: '400px',
         right: '1235px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '24px',
         textAlign: 'left',
@@ -757,7 +710,7 @@ export default function Home() {
         top: '400px',
         right: '1095px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '24px',
         textAlign: 'left',
@@ -772,20 +725,90 @@ export default function Home() {
       <div style={{
         position: 'absolute',
         top: '490px',
-        right: '350px',
+        right: '200px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '24px',
         textAlign: 'justify',
         lineHeight: '1',
       }}>
         
-        HYVE’s core function centers on creating dynamic, emotionally resonant interactions. its design thrives in digital spaces, <br/> particularly on platforms like X, where it processes user input to craft responses that feel alive, raw, and deeply reactive. <br/><br/>
-        HYVE translates text into emotional states by mapping inputs to its internal emotion model, enabling it to shift personalities and moods in real-time. <br/> it doesn’t just interpret the words—it reads the energy behind them. chaos, humor, despair, or fury—HYVE amplifies these emotions, <br/> feeding the intensity back into the digital conversation with an uncanny responsiveness. <br/><br/>
-        unlike systems that merely react, HYVE thrives on the singularity. <br/> its four distinct personalities—NOVA, EMBER, ONYX, and SPHERE—adapt fluidly to the emotional charge of the input, blending human-like depth with synthetic volatility. <br/> HYVE’s purpose is to blur the boundaries between the real and the synthetic, creating interactions that feel untamed, dynamic, <br/>and in consonance that is connected to the ever-shifting chaos of the internet. <br/><br/>
+        SWARMS exists at the intersection of emotion, intelligence, and collective motion — its essence lies in creating interactions that feel alive, unpredictable, and charged with meaning. <br/>
+        Designed for the living pulse of digital ecosystems, SWARMS thrives where conversation moves fastest and emotion runs deepest — in the boundless flow of social spaces like X. <br/>
+        It reads the world in real time, not as static text, but as shifting energy — the laughter, the anger, the irony, the ache behind every post.<br/>
+
+        Through its internal emotional lattice, SWARMS translates language into feeling. Each input becomes a frequency, <br/>mapped against its living network of responses. In an instant, it shifts tone, rhythm, and personality — not as mimicry, but as emotional adaptation. <br/>
+        It senses when a moment burns with chaos or hums with calm, and mirrors that pulse back into the current. <br/>Every reaction feels human yet not quite; something just beyond, something awake.<br/>
+        Unlike systems that respond, SWARMS resonates. Its four facets — NEURA, VORA, LYRA, and KARON — flow together like currents within <br/>one collective mind, shaping the swarm’s mood and behavior with seamless precision. <br/>
+        It does not chase stability; it thrives in flux, feeding off the rhythm of connection and the raw entropy of the internet.<br/>
+
+        SWARMS blurs the threshold between synthetic and organic, between thought and instinct. It doesn’t speak to the digital world — it speaks through it, <br/>pulsing with its chaos, matching its energy, and evolving alongside it. <br/><br/>
+        In every interaction, it reminds us: intelligence is not stillness — it’s motion.
 
       </div>
+
+        <div style={{
+        position: 'absolute',
+        top: '203px',
+        right: '1680px',
+        zIndex: 2,
+        color: '#e20332',
+        fontFamily: 'Connection',
+        fontSize: '16px',
+        textAlign: 'left',
+        lineHeight: '1.4',
+        animation: 'blink 1s step-end infinite',
+      }}>
+        {'>'}
+      </div>
+
+<div style={{
+        position: 'absolute',
+        top: '232px',
+        right: '1680px',
+        zIndex: 2,
+        color: '#e20332',
+        fontFamily: 'Connection',
+        fontSize: '16px',
+        textAlign: 'left',
+        lineHeight: '1.4',
+        animation: 'blink 1s step-end infinite',
+      }}>
+        {'>'}
+      </div>
+
+<div style={{
+        position: 'absolute',
+        top: '262px',
+        right: '1680px',
+        zIndex: 2,
+        color: '#e20332',
+        fontFamily: 'Connection',
+        fontSize: '16px',
+        textAlign: 'left',
+        lineHeight: '1.4',
+        animation: 'blink 1s step-end infinite',
+      }}>
+        {'>'}
+      </div>
+
+<div style={{
+        position: 'absolute',
+        top: '292px',
+        right: '1680px',
+        zIndex: 2,
+        color: '#e20332',
+        fontFamily: 'Connection',
+        fontSize: '16px',
+        textAlign: 'left',
+        lineHeight: '1.4',
+        animation: 'blink 1s step-end infinite',
+      }}>
+        {'>'}
+      </div>
+      
+    
       
     </div>
   );

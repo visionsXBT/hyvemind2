@@ -1,4 +1,4 @@
-// File: C:\Users\Admin\Desktop\hyvemind\app\ember\page.tsx
+// File: C:\Users\User\hyvemind2\app\ember\page.tsx
 import * as entry from '../../../../app/ember/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

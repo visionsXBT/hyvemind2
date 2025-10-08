@@ -1,4 +1,4 @@
-// File: C:\Users\Admin\Desktop\hyvemind\app\onyx\page.tsx
+// File: C:\Users\User\hyvemind2\app\onyx\page.tsx
 import * as entry from '../../../../app/onyx/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

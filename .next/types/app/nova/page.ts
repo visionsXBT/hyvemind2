@@ -1,4 +1,4 @@
-// File: C:\Users\Admin\Desktop\hyvemind\app\nova\page.tsx
+// File: C:\Users\User\hyvemind2\app\nova\page.tsx
 import * as entry from '../../../../app/nova/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

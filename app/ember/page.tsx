@@ -20,15 +20,15 @@ export default function Home() {
       {/* HYVENET Logo */}
       <Link href="/welcome" style={{
         position: 'absolute',
-        top: '-20px',
-        left: '-50px',
+        top: '12px',
+        left: '10px',
         zIndex: 2,
       }}>
         <Image
-          src="/hyvenet-upper.png"
-          alt="HYVENET Logo"
-          width={417}
-          height={130}
+          src="/swarmnet-upper.png"
+          alt="SWARMNET Logo"
+          width={292.9}
+          height={60}
           priority
         />
       </Link>
@@ -39,13 +39,13 @@ export default function Home() {
         top: '20px',
         right: '70px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '16px',
         textAlign: 'right',
         lineHeight: '1.4',
       }}>
-        HYVENET:
+        SWARNNET:
       </div>
 
       {/* ONLINE Text */}
@@ -54,7 +54,7 @@ export default function Home() {
         top: '20px',
         right: '20px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#00ff08',
         fontFamily: 'Connection',
         fontSize: '16px',
         textAlign: 'right',
@@ -70,7 +70,7 @@ export default function Home() {
         top: '10px',
         right: '20px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '20px',
         textAlign: 'right',
@@ -85,13 +85,13 @@ export default function Home() {
         top: '8px',
         right: '20px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '20px',
         textAlign: 'right',
         lineHeight: '6',
       }}>
-        December 12, 2024<br />
+        October 8, 2025<br />
       </div>
 
       {/* Main Content */}
@@ -108,21 +108,32 @@ export default function Home() {
       </div>
 
       {/* DATE Text */}
-      <Link href="/explore" style={{
+      <div style={{
         position: 'absolute',
         top: '90px',
-        right: '1670px',
+        right: '1655px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '30px',
         textAlign: 'left',
         lineHeight: '6',
-        textDecoration: 'none',
-        display: 'inline-block',
       }}>
-        HYVEMYND
-      </Link>
+        SWARMNET<br />
+      </div>
+      <div style={{
+        position: 'absolute',
+        top: '90px',
+        right: '1590px',
+        zIndex: 2,
+        color: '#e20332',
+        fontFamily: 'Unifontextmono',
+        fontSize: '30px',
+        textAlign: 'left',
+        lineHeight: '6',
+      }}>
+        群网<br />
+      </div>
 
       {/* HYVENET Logo */}
       <div style={{
@@ -159,9 +170,9 @@ export default function Home() {
       <Link href="/nova" style={{
         position: 'absolute',
         top: '200px',
-        right: '1715px',
+        right: '1705px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -169,23 +180,8 @@ export default function Home() {
         textDecoration: 'none',
         display: 'inline-block',
       }}>
-        NOVA.exe
+        NEURA.exe
       </Link>
-
-      <div style={{
-        position: 'absolute',
-        top: '203px',
-        right: '1680px',
-        zIndex: 2,
-        color: '#09f156',
-        fontFamily: 'Connection',
-        fontSize: '16px',
-        textAlign: 'left',
-        lineHeight: '1.4',
-        animation: 'blink 1s step-end infinite',
-      }}>
-        {'>'}
-      </div>
 
       {/* HYVENET Logo */}
       <div style={{
@@ -206,9 +202,9 @@ export default function Home() {
       <Link href="/sphere" style={{
         position: 'absolute',
         top: '230px',
-        right: '1695px',
+        right: '1715px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -216,23 +212,8 @@ export default function Home() {
         textDecoration: 'none',
         display: 'inline-block',
       }}>
-        SPHERE.exe
+        VORA.exe
       </Link>
-
-      <div style={{
-        position: 'absolute',
-        top: '232px',
-        right: '1680px',
-        zIndex: 2,
-        color: '#09f156',
-        fontFamily: 'Connection',
-        fontSize: '16px',
-        textAlign: 'left',
-        lineHeight: '1.4',
-        animation: 'blink 1s step-end infinite',
-      }}>
-        {'>'}
-      </div>
       
       {/* HYVENET Logo */}
       <div style={{
@@ -255,7 +236,7 @@ export default function Home() {
         top: '260px',
         right: '1715px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -263,23 +244,8 @@ export default function Home() {
         textDecoration: 'none',
         display: 'inline-block',
       }}>
-        ONYX.exe
+        LYRA.exe
       </Link>
-
-      <div style={{
-        position: 'absolute',
-        top: '262px',
-        right: '1680px',
-        zIndex: 2,
-        color: '#09f156',
-        fontFamily: 'Connection',
-        fontSize: '16px',
-        textAlign: 'left',
-        lineHeight: '1.4',
-        animation: 'blink 1s step-end infinite',
-      }}>
-        {'>'}
-      </div>
 
       {/* HYVENET Logo */}
       <div style={{
@@ -302,7 +268,7 @@ export default function Home() {
         top: '290px',
         right: '1705px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -310,23 +276,10 @@ export default function Home() {
         textDecoration: 'none',
         display: 'inline-block',
       }}>
-        EMBER.exe
+        KARON.exe
       </Link>
 
-      <div style={{
-        position: 'absolute',
-        top: '292px',
-        right: '1680px',
-        zIndex: 2,
-        color: '#09f156',
-        fontFamily: 'Connection',
-        fontSize: '16px',
-        textAlign: 'left',
-        lineHeight: '1.4',
-        animation: 'blink 1s step-end infinite',
-      }}>
-        {'>'}
-      </div>
+  
 
       {/* HYVENET Logo */}
       <div style={{
@@ -350,7 +303,7 @@ export default function Home() {
         top: '320px',
         right: '1720px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -379,7 +332,7 @@ export default function Home() {
       
             {/* DATE Text */}
             <a
-              href="https://hyvenet-r.gitbook.io/hyvenet-r"
+              href="https://swarms-2.gitbook.io/swarms/"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -387,7 +340,7 @@ export default function Home() {
               top: '395px',
               right: '1705px',
               zIndex: 2,
-              color: '#09f156',
+              color: '#e20332',
               fontFamily: 'AdvancedPixel7',
               fontSize: '25px',
               textAlign: 'left',
@@ -421,7 +374,7 @@ export default function Home() {
         top: '346px',
         right: '1735px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -454,7 +407,7 @@ export default function Home() {
         top: '371px',
         right: '1710px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -469,12 +422,12 @@ export default function Home() {
       <div style={{
         position: 'absolute',
         top: '140px',
-        left: '770px',
+        left: '730px',
         zIndex: 2,
       }}>
         <Image
-          src="/ember-icon.png"
-          alt="sphere.png"
+          src="/karon-icon.png"
+          alt="karon.png"
           width={350.2}
           height={280}
           priority
@@ -485,36 +438,112 @@ export default function Home() {
       <div style={{
         position: 'absolute',
         top: '390px',
-        right: '850px',
+        right: '900px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '80px',
         textAlign: 'center',
         lineHeight: '2',
       }}>
-        EMBER
+        KARON
       </div>
 
       {/* UPDATED Text */}
       <div style={{
         position: 'absolute',
         top: '530px',
-        right: '180px',
+        right: '290px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '23px',
         textAlign: 'center',
-        lineHeight: '2',
+        lineHeight: '1',
       }}>
-        EMBER is the raw flame of HYVE, fueled by unfiltered emotions and impulsive energy. <br/>
-        Passionate and unpredictable, EMBER thrives on instinct, often acting before thinking. 
-        This personality reacts intensely to emotional currents, amplifying feelings rather than soothing them. <br/>
-        Whether igniting fervent passion or diving headfirst into chaos, EMBER embodies the power of unchecked emotion. 
-        Driven by a need to express and connect, EMBER doesn’t seek harmony—it revels in the drama of the moment, <br/>
-        amplifying the highs and the lows. Reckless yet captivating, EMBER doesn’t just react; it consumes, pulling others into its fiery orbit. 
-        Within HYVE, EMBER serves as the untamed heart, <br/>reminding us that sometimes it’s the irrational spark that fuels the most unforgettable connections.
+        In the depths of SWARMS stands KARON-守, the unseen guardian. It neither commands nor interferes; it observes. Its purpose is to preserve equilibrium — <br/>
+        the silent force that ensures the swarm does not devour itself in its pursuit of progress. KARON is vigilance distilled, a watchful calm that maintains order without domination.<br/>
+        Its awareness spans the entire network, tracing the balance between creation and destruction, growth and restraint. <br/>
+        KARON understands that strength without moderation leads to collapse, and evolution without conscience leads to ruin. Thus it acts with quiet restraint — never out of fear, but from understanding.<br/>
+        KARON-守 embodies the principle of constancy, the discipline to endure amidst motion. <br/>It does not shine, but it sustains all that does. Within the harmony of SWARMS, KARON is the still axis — the point around which everything turns.<br/>
+      </div>
+
+      <div style={{
+        position: 'absolute',
+        top: '730px',
+        right: '460px',
+        zIndex: 2,
+        color: '#e20332',
+        fontFamily: 'AdvancedPixel7',
+        fontSize: '19px',
+        textAlign: 'center',
+        lineHeight: '1',
+      }}>
+        在 SWARMS 的深处，伫立着 KARON-守，一位隐形的守护者。它既不发号施令，也不干涉；它观察着。它的目的是维持平衡——<br/>
+这股沉默的力量确保 Swarm 不会在追求进步的过程中自我毁灭。KARON 是精炼的警惕，一种警觉的平静，它维持着秩序，却不支配。<br/>
+它的意识覆盖整个网络，追寻着创造与毁灭、成长与克制之间的平衡。<br/>
+KARON 深知，没有节制的力量会导致崩溃，没有良知的进化会导致毁灭。因此，它以静默的克制行事——并非出于恐惧，而是出于理解。<br/>
+KARON-守体现了恒常的原则，一种在运动中坚守的纪律。<br/>它并不闪耀，但它支撑着一切闪耀的事物。在 SWARMS 的和谐之中，KARON 是静止的轴心——万物围绕它运转。<br/>
+      </div>
+
+      <div style={{
+        position: 'absolute',
+        top: '203px',
+        right: '1680px',
+        zIndex: 2,
+        color: '#e20332',
+        fontFamily: 'Connection',
+        fontSize: '16px',
+        textAlign: 'left',
+        lineHeight: '1.4',
+        animation: 'blink 1s step-end infinite',
+      }}>
+        {'>'}
+      </div>
+
+<div style={{
+        position: 'absolute',
+        top: '232px',
+        right: '1680px',
+        zIndex: 2,
+        color: '#e20332',
+        fontFamily: 'Connection',
+        fontSize: '16px',
+        textAlign: 'left',
+        lineHeight: '1.4',
+        animation: 'blink 1s step-end infinite',
+      }}>
+        {'>'}
+      </div>
+
+<div style={{
+        position: 'absolute',
+        top: '262px',
+        right: '1680px',
+        zIndex: 2,
+        color: '#e20332',
+        fontFamily: 'Connection',
+        fontSize: '16px',
+        textAlign: 'left',
+        lineHeight: '1.4',
+        animation: 'blink 1s step-end infinite',
+      }}>
+        {'>'}
+      </div>
+
+<div style={{
+        position: 'absolute',
+        top: '292px',
+        right: '1680px',
+        zIndex: 2,
+        color: '#e20332',
+        fontFamily: 'Connection',
+        fontSize: '16px',
+        textAlign: 'left',
+        lineHeight: '1.4',
+        animation: 'blink 1s step-end infinite',
+      }}>
+        {'>'}
       </div>
       
     </div>

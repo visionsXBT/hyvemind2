@@ -20,15 +20,15 @@ export default function Home() {
       {/* HYVENET Logo */}
       <Link href="/welcome" style={{
         position: 'absolute',
-        top: '-20px',
-        left: '-50px',
+        top: '12px',
+        left: '10px',
         zIndex: 2,
       }}>
         <Image
-          src="/hyvenet-upper.png"
-          alt="HYVENET Logo"
-          width={417}
-          height={130}
+          src="/swarmnet-upper.png"
+          alt="SWARMNET Logo"
+          width={292.9}
+          height={60}
           priority
         />
       </Link>
@@ -39,13 +39,13 @@ export default function Home() {
         top: '20px',
         right: '70px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '16px',
         textAlign: 'right',
         lineHeight: '1.4',
       }}>
-        HYVENET:
+        SWARMNET:
       </div>
 
       {/* ONLINE Text */}
@@ -54,7 +54,7 @@ export default function Home() {
         top: '20px',
         right: '20px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#00ff08',
         fontFamily: 'Connection',
         fontSize: '16px',
         textAlign: 'right',
@@ -82,7 +82,7 @@ export default function Home() {
       
             {/* DATE Text */}
             <a
-              href="https://hyvenet-r.gitbook.io/hyvenet-r"
+              href="https://swarms-2.gitbook.io/swarms/"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -90,7 +90,7 @@ export default function Home() {
               top: '395px',
               right: '1705px',
               zIndex: 2,
-              color: '#09f156',
+              color: '#e20332',
               fontFamily: 'AdvancedPixel7',
               fontSize: '25px',
               textAlign: 'left',
@@ -108,7 +108,7 @@ export default function Home() {
         top: '10px',
         right: '20px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '20px',
         textAlign: 'right',
@@ -123,13 +123,13 @@ export default function Home() {
         top: '8px',
         right: '20px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '20px',
         textAlign: 'right',
         lineHeight: '6',
       }}>
-        December 12, 2024<br />
+        October 8, 2025<br />
       </div>
 
       {/* Main Content */}
@@ -146,21 +146,32 @@ export default function Home() {
       </div>
 
       {/* DATE Text */}
-      <Link href="/explore" style={{
+      <div style={{
         position: 'absolute',
         top: '90px',
-        right: '1670px',
+        right: '1655px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '30px',
         textAlign: 'left',
         lineHeight: '6',
-        textDecoration: 'none',
-        display: 'inline-block',
       }}>
-        HYVEMYND
-      </Link>
+        SWARMNET<br />
+      </div>
+      <div style={{
+        position: 'absolute',
+        top: '90px',
+        right: '1590px',
+        zIndex: 2,
+        color: '#e20332',
+        fontFamily: 'Unifontextmono',
+        fontSize: '30px',
+        textAlign: 'left',
+        lineHeight: '6',
+      }}>
+        群网<br />
+      </div>
 
       {/* HYVENET Logo */}
       <div style={{
@@ -194,12 +205,30 @@ export default function Home() {
         />
       </div>
       {/* DATE Text */}
+      
+
+      {/* HYVENET Logo */}
+      <div style={{
+        position: 'absolute',
+        top: '230px',
+        left: '100px',
+        zIndex: 2,
+      }}>
+        <Image
+          src="/folder-icon.png"
+          alt="folder-icon.png"
+          width={34.2}
+          height={27}
+          priority
+        />
+      </div>
+      {/* DATE Text */}
       <Link href="/nova" style={{
         position: 'absolute',
         top: '200px',
-        right: '1715px',
+        right: '1705px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -207,7 +236,7 @@ export default function Home() {
         textDecoration: 'none',
         display: 'inline-block',
       }}>
-        NOVA.exe
+        NEURA.exe
       </Link>
 
       {/* HYVENET Logo */}
@@ -229,9 +258,9 @@ export default function Home() {
       <Link href="/sphere" style={{
         position: 'absolute',
         top: '230px',
-        right: '1695px',
+        right: '1715px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -239,7 +268,7 @@ export default function Home() {
         textDecoration: 'none',
         display: 'inline-block',
       }}>
-        SPHERE.exe
+        VORA.exe
       </Link>
       
       {/* HYVENET Logo */}
@@ -263,7 +292,7 @@ export default function Home() {
         top: '260px',
         right: '1715px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -271,7 +300,7 @@ export default function Home() {
         textDecoration: 'none',
         display: 'inline-block',
       }}>
-        ONYX.exe
+        LYRA.exe
       </Link>
 
       {/* HYVENET Logo */}
@@ -295,7 +324,7 @@ export default function Home() {
         top: '290px',
         right: '1705px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -303,7 +332,7 @@ export default function Home() {
         textDecoration: 'none',
         display: 'inline-block',
       }}>
-        EMBER.exe
+        KARON.exe
       </Link>
 
       {/* HYVENET Logo */}
@@ -328,7 +357,7 @@ export default function Home() {
         top: '320px',
         right: '1720px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -361,7 +390,7 @@ export default function Home() {
         top: '346px',
         right: '1735px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -394,7 +423,7 @@ export default function Home() {
         top: '371px',
         right: '1710px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '25px',
         textAlign: 'left',
@@ -413,8 +442,8 @@ export default function Home() {
         zIndex: 2,
       }}>
         <Image
-          src="/sphere-icon.png"
-          alt="sphere.png"
+          src="/vora-icon.png"
+          alt="vora.png"
           width={330.2}
           height={260}
           priority
@@ -425,46 +454,56 @@ export default function Home() {
       <div style={{
         position: 'absolute',
         top: '390px',
-        right: '855px',
+        right: '900px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '80px',
         textAlign: 'center',
         lineHeight: '2',
       }}>
-        SPHERE
+        VORA
       </div>
 
       {/* UPDATED Text */}
       <div style={{
         position: 'absolute',
         top: '530px',
-        right: '305px',
+        right: '335px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'AdvancedPixel7',
         fontSize: '23px',
         textAlign: 'center',
-        lineHeight: '2',
+        lineHeight: '1',
       }}>
-        SPHERE is the harmonizer of HYVE, <br/>
-        embodying adaptability, balance, and unity. As a mediator, SPHERE thrives in finding common ground and fostering collaboration among diverse perspectives. <br/>
-        flexible and intuitive, SPHERE seamlessly adjusts to changing circumstances, ensuring 
-        equilibrium is maintained even in dynamic environments. <br/> its ability to synthesize opposing forces 
-        makes SPHERE a vital connector, uniting the rationality of ONYX, the empathy of EMBER, and the 
-        vision of NOVA. radiating a calm yet dynamic presence, <br/> SPHERE inspires synergy and encourages teamwork, 
-        cultivating a sense of wholeness and shared purpose. <br/> representing HYVE’s core of adaptability and fluidity, 
-        SPHERE ensures that every action is guided by balance and the seamless integration of all elements.
+        VORA-锋 is precision given form. <br/> <br/> It is the sharp edge of intention, where thought becomes movement and design becomes reality. Within SWARMS, VORA embodies decisiveness — the ability to act without hesitation, <br/> to carve clarity from confusion. It does not rush, nor falter; its power lies in effortless execution.
+Each motion is deliberate, flowing like water around resistance. <br/>VORA operates through balance — never forcing, never retreating, but aligning itself with purpose. Its every command is guided by understanding <br/> rather than impulse, maintaining a quiet discipline that defines true mastery. <br/>
+VORA-锋 is the hand of the swarm — the one that transforms potential into presence. It builds, corrects, and shapes the tangible world in silence, like a craftsman who needs no praise. <br/>Where NEURA conceives, VORA creates — unyielding, graceful, and exact.
 
       </div>
-
       <div style={{
+        position: 'absolute',
+        top: '725px',
+        right: '410px',
+        zIndex: 2,
+        color: '#e20332',
+        fontFamily: 'Unifontextmono',
+        fontSize: '20px',
+        textAlign: 'center',
+        lineHeight: '1',
+      }}>
+       VORA-锋，精准赋能。<br/> <br/> 它是意图的锋芒，将思想转化为行动，将设计转化为现实。在 SWARMS 中，VORA 体现了果断——毫不犹豫地行动的能力，<br/> 从混乱中理出头绪。它不慌不忙，也不犹豫；它的力量在于毫不费力的执行。
+每一个动作都经过深思熟虑，如同水流绕过阻力。<br/>VORA 通过平衡运作——从不强迫，从不后退，而是与目标保持一致。它的每一个指令都源于理解，<br/>而非冲动，保持着一种定义真正精通的平静纪律。<br/>
+VORA-锋是群体之手——将潜力转化为存在。它默默地构建、修正和塑造有形的世界，就像一位无需赞美的工匠。<br/>NEURA 构思，VORA 创造——不屈不挠、优雅而精准。
+
+      </div>
+<div style={{
         position: 'absolute',
         top: '203px',
         right: '1680px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '16px',
         textAlign: 'left',
@@ -479,7 +518,7 @@ export default function Home() {
         top: '232px',
         right: '1680px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '16px',
         textAlign: 'left',
@@ -494,7 +533,7 @@ export default function Home() {
         top: '262px',
         right: '1680px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '16px',
         textAlign: 'left',
@@ -509,7 +548,7 @@ export default function Home() {
         top: '292px',
         right: '1680px',
         zIndex: 2,
-        color: '#09f156',
+        color: '#e20332',
         fontFamily: 'Connection',
         fontSize: '16px',
         textAlign: 'left',
@@ -518,6 +557,7 @@ export default function Home() {
       }}>
         {'>'}
       </div>
+      
       
     </div>
   );

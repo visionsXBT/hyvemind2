@@ -1,4 +1,4 @@
-// File: C:\Users\Admin\Desktop\hyvemind\app\explore\page.tsx
+// File: C:\Users\User\hyvemind2\app\explore\page.tsx
 import * as entry from '../../../../app/explore/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
