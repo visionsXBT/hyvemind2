@@ -1,9 +1,0 @@
-{
-  "/ember/page": "app/ember/page.js",
-  "/nova/page": "app/nova/page.js",
-  "/onyx/page": "app/onyx/page.js",
-  "/models/page": "app/models/page.js",
-  "/sphere/page": "app/sphere/page.js",
-  "/backrooms/page": "app/backrooms/page.js",
-  "/datasets/page": "app/datasets/page.js"
-}
