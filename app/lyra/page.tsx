@@ -15,7 +15,7 @@ export default function Home() {
       backgroundColor: 'black',
       overflow: 'hidden',
     }}>
-      asd
+      
 
       {/* HYVENET Logo */}
       <Link href="/welcome" style={{

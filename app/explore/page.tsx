@@ -203,7 +203,7 @@ export default function Home() {
         />
       </div>
       {/* DATE Text */}
-      <Link href="/nova" style={{
+      <Link href="/neura" style={{
         position: 'absolute',
         top: '200px',
         right: '1705px',
@@ -235,7 +235,7 @@ export default function Home() {
         />
       </div>
       {/* DATE Text */}
-      <Link href="/sphere" style={{
+      <Link href="/vora" style={{
         position: 'absolute',
         top: '230px',
         right: '1715px',
@@ -267,7 +267,7 @@ export default function Home() {
         />
       </div>
       {/* DATE Text */}
-      <Link href="/onyx" style={{
+      <Link href="/lyra" style={{
         position: 'absolute',
         top: '260px',
         right: '1715px',
@@ -299,7 +299,7 @@ export default function Home() {
         />
       </div>
       {/* DATE Text */}
-      <Link href="/ember" style={{
+      <Link href="/karon" style={{
         position: 'absolute',
         top: '290px',
         right: '1705px',
